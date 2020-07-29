@@ -25,4 +25,7 @@ public class Company {
     public void setId(int id) {
         this.id = id;
     }
+    public void deleteAllEmployeesBelongToThisCompany(){
+        employees.clear();
+    }
 }
